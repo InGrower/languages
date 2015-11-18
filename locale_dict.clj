@@ -110,8 +110,8 @@
                     :grams "grams"
                     :doses "doses"
                     :kWh "kWh"
-                    :celsius "Celsius"
-                    :percent "percent"
+                    :celsius "°C"
+                    :percent "%"
 
                     :feed-a0 "Feed A0"
                     :feed-a1 "Feed A1"
@@ -126,7 +126,7 @@
 
                     :house-cleanliness "House Cleanliness"
                     :house-integrity "House Integrity"
-                    :food-trays-cleanliness "Feed Trays Cleanliness"
+                    :feed-trays-cleanliness "Feed Trays Cleanliness"
                     :water-trays-cleanliness "Water Trays Cleanliness"
                     :temperature "Temperature"
                     :humidity "Humidity"
@@ -134,6 +134,21 @@
                     :health "Health"
                     :mortality "Mortality"
                     :weight "Weight"
+
+                    :options {:very-dirty "Very Dirty"
+                              :dirty "Dirty"
+                              :clean "Clean"
+                              :very-clean "Very Clean"
+
+                              :very-exposed "Very Exposed"
+                              :exposed "Exposed"
+                              :tight "Tight"
+                              :very-tight "Very Tight"
+
+                              :very-sick "Very Sick"
+                              :sick "Sick"
+                              :healthy "Healthy"
+                              :very-healthy "Very Healthy"}
 
                     :client-name "Client Name"
                     :number-sold "Units"
@@ -250,6 +265,55 @@
       :admin-edit-history {:title-1 "Edição de"
                            :on-date "em %s"
                            :return-to-history "Voltar para História"}
+
+      :daily-forms {:kg "kg"
+                    :litre "litre"
+                    :grams "gramas"
+                    :doses "dosis"
+                    :kWh "kWh"
+                    :celsius "°C"
+                    :percent "%"
+
+                    :feed-a0 "Ração A0"
+                    :feed-a1 "Ração A1"
+                    :feed-a2 "Ração A2"
+                    :water "Água"
+                    :sugar "Açúcar"
+                    :vitamins "Vitaminas"
+                    :newcastle "Newcastle"
+                    :gumboror "Gumboror"
+                    :antibiotic "Antibióticos"
+                    :electricity-consumption "Consumo de Eletricidade"
+
+                    :house-cleanliness "Casa Limpeza"
+                    :house-integrity "Casa Integridade"
+                    :feed-trays-cleanliness "Bandejas de Alimentação Limpeza"
+                    :water-trays-cleanliness "Bandejas de Água Limpeza"
+                    :temperature "Temperatura"
+                    :humidity "Umidade"
+
+                    :health "Saúde"
+                    :mortality "Mortalidade"
+                    :weight "Peso"
+
+                    :options {:very-dirty "Muito Sujo"
+                              :dirty "Sujo"
+                              :clean "Limpo"
+                              :very-clean "Muito Limpo"
+
+                              :very-exposed "Muito Exposto"
+                              :exposed "Exposto"
+                              :tight "Apertado"
+                              :very-tight "Muito Apertado"
+
+                              :very-sick "Muito Doente"
+                              :sick "Doente"
+                              :healthy "Sadio"
+                              :very-healthy "Muito Sadio"}
+
+                    :client-name "Nome do Cliente"
+                    :number-sold "Unidades"
+                    :price-sold "Preço Total (MT)"}
 
       :missing "|Faltando Tradução: [%1$s %2$s %3$s]|"}
  }
