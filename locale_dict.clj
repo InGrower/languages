@@ -105,6 +105,41 @@
                            :on-date "on %s"
                            :return-to-history "Return to History"}
 
+      :daily-forms {:kg "kg"
+                    :litre "litre"
+                    :grams "grams"
+                    :doses "doses"
+                    :kWh "kWh"
+                    :celsius "Celsius"
+                    :percent "percent"
+
+                    :feed-a0 "Feed A0"
+                    :feed-a1 "Feed A1"
+                    :feed-a2 "Feed A2"
+                    :water "Water"
+                    :sugar "Sugar"
+                    :vitamins "Vitamins"
+                    :newcastle "Newcastle"
+                    :gumboror "Gumboror"
+                    :antibiotic "Antibiotic"
+                    :electricity-consumption "Electricity Consumption"
+
+                    :house-cleanliness "House Cleanliness"
+                    :house-integrity "House Integrity"
+                    :food-trays-cleanliness "Feed Trays Cleanliness"
+                    :water-trays-cleanliness "Water Trays Cleanliness"
+                    :temperature "Temperature"
+                    :humidity "Humidity"
+
+                    :health "Health"
+                    :mortality "Mortality"
+                    :weight "Weight"
+
+                    :client-name "Client Name"
+                    :number-sold "Units"
+                    :price-sold "Total Price (MT)"
+                    }
+
       :missing  "|Missing translation: [%1$s %2$s %3$s]|"}
 
  ;; -- Portugese ------------
