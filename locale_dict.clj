@@ -33,10 +33,14 @@
                   :progress-chart {:dataset "Progress Percentage"}}
 
       :productions-summary {:title "Active Productions"
+                            :delete-dropdown "Delete"
                             :finish-dropdown "Finish"
-                            :modal {:title "Are you finished with %s?"
-                                    :description "You will not be able to edit this production's data after you marked it as finished."
-                                    :submit "Yes, finish this production"}
+                            :delete-modal {:title "Delete %s"
+                                           :description "Deleting will move this production into the trash bin. Are you sure?"
+                                           :submit "I am sure, delete this production"}
+                            :finish-modal {:title "Are you finished with %s?"
+                                           :description "You will not be able to edit this production's data after you marked it as finished."
+                                           :submit "Yes, finish this production"}
                             :panel-no-active-production "Looks like you don't have any active production. Click the button below to start a new production."
                             :start-new-production "Start a new production"}
 
@@ -195,8 +199,12 @@
                   :progress-chart {:dataset "Percentagem Progresso"}}
 
       :productions-summary {:title "Produções Ativos"
+                            :delete-dropdown "Deletar"
                             :finish-dropdown "Terminar"
-                            :modal {:title "Você já terminou com o %s?"
+                            :delete-modal {:title "Deletar %s"
+                                           :description "Excluindo vai mover essa produção para o caixote do lixo. Você tem certeza?"
+                                           :submit "Estou certo de que, elimine esta produção"}
+                            :finish-modal {:title "Você já terminou com o %s?"
                                     :description "Você não será capaz de editar os dados deste de produção depois que você marcou como terminado."
                                     :submit "Sim, terminar esta produção"}
                             :panel-no-active-production "Parece que você não tem qualquer produção ativa. Clique no botão abaixo para iniciar uma nova produção."
