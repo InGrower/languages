@@ -82,6 +82,7 @@
                             :return-button "Return to Mailbox"}
 
       :account-page {:title "Account"
+                     :language "Language"
                      :go-to-admin-site "Go to Admin Site"}
 
       :admin-top-nav-bar {:title "InGrower Administration"
@@ -243,6 +244,7 @@
                             :return-button "Retornar à caixa de correio"}
 
       :account-page {:title "Conta"
+                     :language "Idioma"
                      :go-to-admin-site "Ir para a Administração do Site"}
 
       :admin-top-nav-bar {:title "InGrower Administração"
