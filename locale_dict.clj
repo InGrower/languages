@@ -46,6 +46,7 @@
 
       :new-production-form {:title "Start a new production"
                             :house "House"
+                            :test "Test"
                             :date-of-insert "Date of insert of chickens"
                             :number-inserted "Number of chickens inserted"
                             :submit "Begin Production"}
@@ -212,6 +213,7 @@
 
       :new-production-form {:title "Iniciar uma nova Produção"
                             :house "Casa"
+                            :test "Teste"
                             :date-of-insert "Data de inserção dos frangos"
                             :number-inserted "Número de galinhas inserido"
                             :submit "Comece Produção"}
