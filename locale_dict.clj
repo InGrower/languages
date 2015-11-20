@@ -105,6 +105,7 @@
 
       :admin-production-history {:title "Production History: %s by %s"
                                  :today "Today"
+                                 :day "Day"
                                  :no-data "There is no data recorded for this production."}
 
       :admin-edit-history {:title-1 "Editing"
@@ -272,6 +273,7 @@
 
       :admin-production-history {:title "História Produção: %s por %s"
                                  :today "Hoje"
+                                 :day "Dia"
                                  :no-data "Não há dados gravados para essa produção."}
 
       :admin-edit-history {:title-1 "Edição de"
