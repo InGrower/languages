@@ -112,6 +112,11 @@
                            :on-date "on %s"
                            :return-to-history "Return to History"}
 
+      :admin-create-user {:full-name "Full Name"
+                          :username "Username"
+                          :password "Password"
+                          :success-message "Account '%s' created."}
+
       :daily-forms {:kg "kg"
                     :litre "litre"
                     :grams "grams"
@@ -207,8 +212,8 @@
                                            :description "Excluindo vai mover essa produção para o caixote do lixo. Você tem certeza?"
                                            :submit "Estou certo de que, elimine esta produção"}
                             :finish-modal {:title "Você já terminou com o %s?"
-                                    :description "Você não será capaz de editar os dados deste de produção depois que você marcou como terminado."
-                                    :submit "Sim, terminar esta produção"}
+                                           :description "Você não será capaz de editar os dados deste de produção depois que você marcou como terminado."
+                                           :submit "Sim, terminar esta produção"}
                             :panel-no-active-production "Parece que você não tem qualquer produção ativa. Clique no botão abaixo para iniciar uma nova produção."
                             :start-new-production "Iniciar uma nova Produção"}
 
@@ -279,6 +284,11 @@
       :admin-edit-history {:title-1 "Edição de"
                            :on-date "em %s"
                            :return-to-history "Voltar para História"}
+
+      :admin-create-user {:full-name "Nome Completo"
+                          :username "Nome de Usuário"
+                          :password "Senha"
+                          :success-message "Conta '%s' criado."}
 
       :daily-forms {:kg "kg"
                     :litre "litre"
