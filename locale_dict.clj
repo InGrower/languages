@@ -193,8 +193,8 @@
       :return-to-app "Retornar a App"
 
       :stats {:days-remaining-to-market "Dias restantes para o Mercado"
-              :chicks-alive "Chicks Vivo"
-              :estimated-revenue "A Estimativa das Receitas"
+              :chicks-alive "Aves Vivas"
+              :estimated-revenue "Metical( MT) Não Dólar"
               :progress-today "Progresso Hoje"
               :start-date "Data de Início"
               :days-of-production "Dias de Produção"
@@ -218,10 +218,10 @@
                             :start-new-production "Iniciar uma nova Produção"}
 
       :new-production-form {:title "Iniciar uma nova Produção"
-                            :house "Casa"
+                            :house "Pavilhão ou Aviário"
                             :test "Teste"
-                            :date-of-insert "Data de inserção dos frangos"
-                            :number-inserted "Número de galinhas inserido"
+                            :date-of-insert "Data de Alojamento"
+                            :number-inserted "Numero de Aves Alojadas"
                             :submit "Comece Produção"}
 
       :production-input-page {:title "Tarefas diárias para %s"
@@ -292,7 +292,7 @@
 
       :daily-forms {:kg "kg"
                     :litre "litre"
-                    :grams "gramas"
+                    :grams "em gramas"
                     :doses "dosis"
                     :kWh "kWh"
                     :celsius "°C"
@@ -309,14 +309,14 @@
                     :antibiotic "Antibióticos"
                     :electricity-consumption "Consumo de Eletricidade"
 
-                    :house-cleanliness "Casa Limpeza"
-                    :house-integrity "Casa Integridade"
-                    :feed-trays-cleanliness "Bandejas de Alimentação Limpeza"
-                    :water-trays-cleanliness "Bandejas de Água Limpeza"
+                    :house-cleanliness "Estado do Aviário ou Pavilhão"
+                    :house-integrity "Espaço Vital no Aviário"
+                    :feed-trays-cleanliness "Estado dos Comedouros"
+                    :water-trays-cleanliness "Estado dos Bebedouros"
                     :temperature "Temperatura"
                     :humidity "Umidade"
 
-                    :health "Saúde"
+                    :health "Sanidade das Aves."
                     :mortality "Mortalidade"
                     :weight "Peso"
 
