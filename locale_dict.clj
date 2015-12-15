@@ -21,6 +21,7 @@
 
       :stats {:days-remaining-to-market "Days Remaining to Market"
               :chicks-alive "Chicks Alive"
+              :chickens-in-production "Chickens in Production"
               :estimated-revenue "Estimated Revenue"
               :progress-today "Progress Today"
               :start-date "Start Date"
@@ -194,6 +195,7 @@
 
       :stats {:days-remaining-to-market "Dias restantes para o Mercado"
               :chicks-alive "Aves Vivas"
+              :chickens-in-production "Galinhas em Produção"
               :estimated-revenue "Metical( MT) Não Dólar"
               :progress-today "Progresso Hoje"
               :start-date "Data de Início"
