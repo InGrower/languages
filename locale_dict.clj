@@ -17,6 +17,7 @@
       :cancel "Cancel"
       :close "Close"
       :logout "Logout"
+      :settings "Settings"
       :return-to-app "Return to App"
 
       :stats {:days-remaining-to-market "Days Remaining to Market"
@@ -191,6 +192,7 @@
       :cancel "Cancelar"
       :close "Fechar"
       :logout "Deslogar"
+      :settings "Configurações"
       :return-to-app "Retornar a App"
 
       :stats {:days-remaining-to-market "Dias restantes para o Mercado"
