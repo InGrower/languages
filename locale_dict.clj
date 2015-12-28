@@ -17,7 +17,6 @@
       :cancel "Cancel"
       :close "Close"
       :logout "Logout"
-      :settings "Settings"
       :return-to-app "Return to App"
 
       :stats {:days-remaining-to-market "Days Remaining to Market"
@@ -45,6 +44,8 @@
                                            :submit "Yes, finish this production"}
                             :panel-no-active-production "Looks like you don't have any active production. Click the button below to start a new production."
                             :start-new-production "Start a new production"}
+
+      :completed-productions {:title "Completed Productions"}
 
       :new-production-form {:title "Start a new production"
                             :house "House"
@@ -90,6 +91,9 @@
 
       :account-page {:title "Account"
                      :language "Language"
+                     :settings "Settings"
+                     :history "History"
+                     :view-completed-productions "View Completed Productions"
                      :go-to-admin-site "Go to Admin Site"}
 
       :admin-top-nav-bar {:title "InGrower Administration"
@@ -192,7 +196,6 @@
       :cancel "Cancelar"
       :close "Fechar"
       :logout "Deslogar"
-      :settings "Configurações"
       :return-to-app "Retornar a App"
 
       :stats {:days-remaining-to-market "Dias restantes para o Mercado"
@@ -220,6 +223,8 @@
                                            :submit "Sim, terminar esta produção"}
                             :panel-no-active-production "Parece que você não tem qualquer produção ativa. Clique no botão abaixo para iniciar uma nova produção."
                             :start-new-production "Iniciar uma nova Produção"}
+
+      :completed-productions {:title "Produções Concluídas"}
 
       :new-production-form {:title "Iniciar uma nova Produção"
                             :house "Pavilhão ou Aviário"
@@ -265,6 +270,9 @@
 
       :account-page {:title "Conta"
                      :language "Idioma"
+                     :settings "Configurações"
+                     :history "História"
+                     :view-completed-productions "Veja Concluído Productions"
                      :go-to-admin-site "Ir para a Administração do Site"}
 
       :admin-top-nav-bar {:title "InGrower Administração"
