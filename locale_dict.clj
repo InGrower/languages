@@ -101,7 +101,8 @@
                           :mailbox "Mailbox"
                           :my-account "My Account"
                           :productions "Productions"
-                          :active "Active"}
+                          :active "Active"
+                          :completed "Completed"}
 
       :admin-home-page {:active-productions "Active Productions"
                         :heading {:house "House"
@@ -280,7 +281,8 @@
                           :mailbox "Caixa de correio"
                           :my-account "A minha conta"
                           :productions "Produções"
-                          :active "Ativo"}
+                          :active "Ativo"
+                          :completed "Completo"}
 
       :admin-home-page {:active-productions "Produções Ativos"
                         :heading {:house "Casa"
