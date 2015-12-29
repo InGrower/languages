@@ -28,7 +28,8 @@
               :days-of-production "Days of Production"
               :revenue "Revenue"
               :chickens-raised "Chickens Raised"
-              :chickens-sold "Chickens Sold"}
+              :chickens-sold "Chickens Sold"
+              :house "House"}
 
       :component {:return-to-homepage-button "Return to Homepage"
                   :progress-chart {:dataset "Progress Percentage"}}
@@ -208,7 +209,8 @@
               :days-of-production "Dias de Produção"
               :revenue "Receita"
               :chickens-raised "Galinhas Levantada"
-              :chickens-sold "Galinhas Vendido"}
+              :chickens-sold "Galinhas Vendido"
+              :house "Pavilhão ou Aviário"}
 
       :component {:return-to-homepage-button "Voltar para Homepage"
                   :progress-chart {:dataset "Percentagem Progresso"}}
